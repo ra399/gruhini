@@ -1,0 +1,36 @@
+@import "./App.css";
+
+.slider {
+  color: var(--pri-color) !important;
+}
+
+.checkbox {
+  font-size: 12px;
+}
+
+.nav-btn-tri {
+  background-color: var(--pri-color) !important;
+}
+
+.nav-btn-tri:hover {
+  background-color: var(--sec-color) !important;
+}
+
+.border-1 {
+  padding-left: 10px !important;
+  padding-top: 1px !important;
+  border-color: var(--txt-color) !important;
+  border-width: 0.1px !important;
+  color: var(--txt-color);
+  background-color: #ffffff00;
+}
+
+.filter {
+  background-color: var(--for-color) !important;
+  height: 100%;
+  overflow: hidden !important;
+}
+
+.txt {
+  color: var(--txt-color) !important;
+}

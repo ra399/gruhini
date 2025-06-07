@@ -1,0 +1,85 @@
+@import "./App.css";
+
+/* Text  */
+
+h3 {
+  font-size: 20px;
+  color: var(--txt-color);
+}
+
+/* SearchBar start*/
+
+.input-group {
+  border: 0.5px solid #d8d8d8;
+  padding: 3px 6px;
+  border-radius: 500px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  margin: 60px 0px 40px 0px;
+  max-width: 500px;
+  min-width: 300px;
+}
+
+.form-control {
+  background: none;
+  border: none;
+}
+.form-control:focus {
+  background: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.empower-card-img {
+  height: 90px !important;
+}
+
+.button {
+  margin-left: 10px !important;
+  background: none !important;
+  border: 0px !important;
+}
+
+/* SearchBar end*/
+
+.empower-card {
+  min-width: 300px !important;
+  box-shadow: none !important;
+}
+
+.empower-grid {
+  padding-right: 40 !important;
+  padding-left: 10;
+}
+
+.empower-card-button {
+  box-shadow: none !important;
+  margin-left: 110px !important;
+}
+
+.button-end {
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+
+.empower-que {
+  min-height: 64px !important;
+}
+
+@media (max-width: 700px) {
+  .quote-img {
+    display: none !important;
+  }
+  .col-9 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .empower-grid {
+    padding-right: 10;
+    padding-left: 10;
+  }
+}
+
+.display-linebreak {
+  white-space: pre-line;
+}

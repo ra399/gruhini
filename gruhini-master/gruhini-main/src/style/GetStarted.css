@@ -1,0 +1,138 @@
+@import "./App.css";
+
+/* AppBar Start */
+
+Link {
+  text-decoration: none;
+}
+
+Button {
+  text-decoration: none;
+  box-shadow: none;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
+
+Button:hover {
+  box-shadow: none !important;
+}
+
+.nav-btn {
+  background-color: var(--pri-color) !important;
+  margin-left: 20px !important;
+}
+
+.nav-btn:hover {
+  background-color: var(--sec-color) !important;
+}
+
+.textField {
+  color: var(--sec-color);
+}
+
+.logo {
+  height: 40px;
+  margin: 10px 0px 10px 10px;
+}
+
+.gs-nav svg {
+  height: 40px;
+  margin-left: -15px;
+}
+
+.gs-nav svg path {
+  fill: var(--txt-color) !important;
+}
+
+.nav-btn-sm {
+  background-color: var(--pri-color) !important;
+  display: none !important;
+}
+
+/* AppBar End */
+
+/* Body Start  */
+
+.body {
+  margin: 20px 60px;
+}
+
+.heading {
+  color: var(--sec-color);
+  margin: 20px 0px !important;
+  font-size: 50px;
+}
+
+p {
+  color: var(--txt-color);
+}
+
+/* CTC Buttons Start */
+
+.CTC1,
+.CTC2 {
+  margin-top: 50px !important;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+}
+
+.CTC1 {
+  background-color: var(--sec-color) !important;
+  margin-right: 20px !important;
+}
+
+.CTC2 {
+  color: var(--sec-color) !important;
+  border-color: var(--sec-color) !important;
+  background-color: #ffffff00 !important;
+}
+
+.CTC1:hover,
+.CTC2:hover {
+  background-color: var(--pri-color) !important;
+  color: #ffffff !important;
+  border-color: var(--pri-color) !important;
+}
+
+/* CTC Buttons End */
+
+.women {
+  display: flex;
+  margin: 0 auto;
+  /* width: 70% !important; */
+  width: 450px;
+}
+
+/* Body End */
+
+/* Mobile View Start */
+
+@media (max-width: 576px) {
+  .nav-btn {
+    display: none !important;
+  }
+  .nav-btn-sm {
+    display: block !important;
+    margin-left: 15px !important;
+    padding: 5px 5px !important;
+  }
+  .nav-btn-sm img {
+    margin: 0 !important;
+    width: 20px;
+  }
+  .nav-btn-sm:hover {
+    background-color: var(--sec-color) !important;
+  }
+  .body {
+    text-align: center;
+    margin: 10px !important;
+  }
+  .women {
+    /* display: block !important;
+    margin: 0 auto !important;
+    width: 300px; */
+    display: none;
+  }
+}
+
+/* Mobile View End */
