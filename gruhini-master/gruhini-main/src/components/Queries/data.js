@@ -13,11 +13,11 @@ const queryData=[
     },
     {
         que: "How can you show your skills using gruhini?",
-        ans: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        ans: " Gruhini empowers me to turn my local skills into real income without needing technical knowledge. I can easily register, create a shop, and sell my homemade products or services. It connects me with nearby opportunities and like-minded creators, especially women, for collaboration and support. I can also seek help or guidance through the built-in help forum. The app is secure, simple to use, and built around my needs. Whether I’m looking to grow my business, find local gigs, or join a supportive community — Gruhini offers all of it in one place, made just for creators like me."
     },
     {
         que: "What makes gruhini special?",
-        ans: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        ans: "It focuses on social entrepreneurship and grassroots empowerment. By lowering the technical and financial barrier to market entry, it helps women turn skills like cooking, tailoring, art, or education into monetized offerings. It also encourages collaboration by allowing users to post queries, share experiences, and even offer mentorship."
     },
 ];
 
