@@ -1,0 +1,101 @@
+/* Start CSS here  */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif !important;
+}
+
+body {
+  background-color: var(--for-color);
+}
+
+form {
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: fit-content;
+  height: auto;
+  /* margin: 20px 0px 10px 20px; */
+  padding: 18px;
+}
+
+:root {
+  --pri-color: #97c1c8;
+  --sec-color: #56669d;
+  --tri-color: #fa9490;
+  --for-color: #ffffff;
+  --fiv-color: #000000;
+  --txt-color: #3e3e3e;
+}
+
+.dark-theme {
+  --pri-color: #56669d;
+  --sec-color: #97c1c8;
+  --tri-color: #fa9490;
+  --for-color: #040a20;
+  --fiv-color: #ffffff;
+  --txt-color: #d6d6d6;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f100;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #a0c3c9;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7ea6ad;
+}
+
+::placeholder {
+  color: var(--txt-color) !important;
+}
+
+.custom-file-input {
+  opacity: 1 !important;
+}
+
+.ctc1-small,
+.ctc2-small {
+  font-size: 13px !important;
+  border: 1px solid var(--sec-color);
+  padding: 8px 16px;
+}
+
+.ctc1-small {
+  color: #ffffff;
+}
+
+.ctc2-small {
+  color: var(--sec-color) !important;
+}
+
+.ctc1-small:hover,
+.ctc2-small:hover {
+  background-color: var(--pri-color) !important;
+  border: 1px solid var(--pri-color) !important;
+  color: #ffffff !important;
+}
+
+.tri-color {
+  color: var(--sec-color);
+}
+
+input {
+  color: var(--txt-color) !important;
+}

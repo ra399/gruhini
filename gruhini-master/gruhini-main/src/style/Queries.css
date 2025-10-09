@@ -1,0 +1,21 @@
+@import "./App.css";
+
+.accordion,
+.accordion-item {
+  background-color: var(--for-color) !important;
+}
+
+.accordion-button,
+.accordion-collapse {
+  background-color: #97c1c896 !important;
+  /* color: #3e3e3e !important; */
+  color: var(--txt-color) !important;
+  margin: 0 auto !important;
+  width: 80% !important;
+  border-radius: 5px !important;
+}
+
+.accordion-collapse {
+  margin-bottom: 20px !important;
+  background-color: #56669d96 !important;
+}

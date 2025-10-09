@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  box-sizing: border-box;
+  border: 1px solid var(--sec-color);
+  border-radius: 10px;
+  width: fit-content;
+  height: auto;
+  /* margin: 20px 0px 10px 20px; */
+  padding: 18px;
+}
+
+.jobForm {
+  color: var(--txt-color) !important;
+  background-color: var(--for-color) !important;
+  display: block;
+  margin: 0 auto;
+}
+
+.postjobtext {
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+.show {
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+.jobForm input,
+textarea {
+  background-color: var(--for-color) !important;
+  padding: 5px 10px;
+  width: 350px;
+  border-radius: 8px;
+  border: 1px solid var(--sec-color) !important;
+}
+
+.back {
+  margin: 10px !important;
+}
+
+.jobForm textarea {
+  padding: 5px 10px;
+  width: 350px;
+  height: 100px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.jobForm label {
+  font-size: 18px !important;
+  font-weight: 400 !important;
+}
+
+.field {
+  margin-top: 25px;
+}
+
+.field div {
+  margin: 10px;
+}
+
+.radio input {
+  padding: none;
+  margin: none;
+  width: auto;
+}
+.jobForm Button {
+  margin-left: 70%;
+  text-decoration: none;
+  box-shadow: none;
+  font-size: 15px !important;
+  font-weight: 300 !important;
+}
+
+.jobForm Button:hover {
+  box-shadow: none !important;
+}
+
+.jobForm .CTC2 {
+  color: var(--sec-color) !important;
+  border-color: var(--sec-color) !important;
+  background-color: #ffffff00 !important;
+}
+
+.CTC1:hover,
+.CTC2:hover {
+  background-color: var(--pri-color) !important;
+  color: #ffffff !important;
+  border-color: var(--pri-color) !important;
+}
+
+.text-justify {
+  text-align: justify;
+}
